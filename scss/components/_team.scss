@@ -1,0 +1,35 @@
+.section--gray-theme {
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: #F5F4FA;
+}
+
+.team {
+    font-size: 16px;
+    line-height: 1.19;
+
+    &__member {
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        background-color: var(--white-color);
+    }
+
+    &__member-title {
+        margin-top: 0;
+        margin-bottom: 10px;
+
+        font-size: 16px;
+        font-weight: 500;
+        color: var(--secondary-color);
+    }
+
+    &__member-wraper {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    &__member-position {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,36 @@
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.padding-top-non {
+    padding-top: 0;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1200px;
+}
+
+.section-title {
+    margin-bottom: 50px;
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.section-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-list .feature:not(:last-child),
+.section-list .work:not(:last-child),
+.section-list .team__member:not(:last-child) {
+    margin-right: 30px;
+}

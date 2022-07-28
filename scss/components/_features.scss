@@ -1,0 +1,29 @@
+.feature {
+    width: calc((100% - 90px) / 4);
+
+    &__icon-wrapper {
+        display: block;
+        width: 270px;
+        height: 120px;
+        padding: 25px 100px;
+        margin-bottom: 30px;
+        border-radius: 4px;
+
+        background: #F5F4FA;
+    }
+
+    &__title {
+        margin-bottom: 10px;
+
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.14;
+        color: var(--secondary-color);
+        text-transform: uppercase;
+    }
+
+    &__description {
+        margin-bottom: 0;
+        line-height: 24px;
+    }  
+}
