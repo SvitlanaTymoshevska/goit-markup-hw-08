@@ -14,7 +14,7 @@
     }
 
     &__form {
-        @extend %flex-centered;
+        @include flex-centered;
     }
 
     &__field {
