@@ -2,14 +2,18 @@
     padding-top: 60px;
     padding-bottom: 60px;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1200px) {
         padding-top: 94px;
         padding-bottom: 94px;
     }
 }
 
 .padding-top-non {
-    padding-top: 0;
+    display: none;
+    @media screen and (min-width: 1200px) {
+        display: block;
+        padding-top: 0;
+    }
 }
 
 .container {
@@ -21,12 +25,17 @@
 }
 
 .section-title {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     color: var(--secondary-color);
     font-weight: 700;
-    font-size: 36px;
+    font-size: 28px;
     line-height: 1.17;
-    text-align: center;
+    text-align: center;    
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 50px;
+        font-size: 36px;
+    }
 }
 
 .section-list {
@@ -38,8 +47,11 @@
     }
 }
 
+ 
 .section-list .feature:not(:last-child),
 .section-list .work:not(:last-child),
 .section-list .team__member:not(:last-child) {
+    @media screen and (min-width: 1200px){
     margin-right: 30px;
+    }
 }

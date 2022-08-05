@@ -1,6 +1,6 @@
 .social {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
    
     &__link {
         display: block;
@@ -26,6 +26,10 @@
         &:focus {
             background-color: #2196F3;
         }
+    }
+
+    &__social-item + &__social-item {
+        margin-left: 10px;
     }
 
     &__social-icon {
