@@ -46,8 +46,15 @@
 }
 
 .join-us {
-    margin-top: 12px;
-    margin-left: 70px;
+    text-align: center;
+    margin-bottom: 60px;
+
+    @media screen and (min-width: 1200px) {
+        text-align: left;
+        margin-top: 12px;
+        margin-left: 70px; 
+        margin-bottom: 0;
+    }
 
     &__title {
         margin-bottom: 20px;
