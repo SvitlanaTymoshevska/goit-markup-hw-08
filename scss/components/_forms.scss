@@ -177,14 +177,24 @@
             display: inline-block;
             width: 16px;
             height: 15px;
-            margin-left: 15px;
+            margin-left: 0;
+
+            @media screen and (min-width: 1200px) {
+                margin-left: 15px;
+            }
+
             margin-right: 7px;
             border: 2px solid var(--secondary-color);
             border-radius: 2px;
         }
 
         &:checked~.clients-data-form__checked-icon {
-            margin-left: 15px;
+            margin-left: 0;
+        
+            @media screen and (min-width: 1200px) {
+                margin-left: 15px;
+            }
+
             margin-right: 7px;
             border-radius: 2px;
             background-color: var(--accent-color);
@@ -193,6 +203,12 @@
 
         &:checked+.clients-data-form__non-checked-icon {
             display: none;
+        }
+    }
+
+    &__wrapper-agreement-ref {
+        @media screen and (max-width: 479px) {
+            max-width: 183px;
         }
     }
 
